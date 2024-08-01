@@ -1,0 +1,17 @@
+Example
+To print the result of basic mathematical operations prepended by signs and 
+all numbers printed with a minimum precision of two digits:
+
+
+#include "main.h"
+
+int main(void)
+{
+	int a = 1, b = 2, c = a + b;
+	int d = 10, e = 20, f = d - e;
+
+	printf("%.2d + %.2d = %+.2d\n", a, b, c);
+	printf("%d - %d = %+d\n", d, e, f);
+
+	return 0;
+}
